@@ -10,7 +10,7 @@ This is a grabber that downloads modules from Amiga Music Preservation (that is 
 How to
 ------
 Well, target platform is Windows (: Main core is Win Batch file ;) Grabber itself written in PHP and lowext utility was originaly written in Perl, but project is so old so i stolen lowext sources, so only lowext binary included, but it could be rewritten in few strings in any language.
-You'll need something like Quick Batch Compiler (actually it's not a compiler, just shitting wrapper) to make it all work together. Or not use it and change patches to utilites in core file. 
+You'll need something like Quick Batch Compiler (actually it's not a compiler, just shitting wrapper) to make it all work together. Or not use it and change pathes to utilites in core file. 
 
 ampg-ripper.php
 ---------------
