@@ -1,0 +1,5 @@
+== WinXP x64 workaround
+
+In WinXP x64 i found that chcp.com was in place, but was invisible
+for anything except the Explorer.exe itself. Copy it somewhere than
+place back with cmd.exe or 3rd party GUI manager.
