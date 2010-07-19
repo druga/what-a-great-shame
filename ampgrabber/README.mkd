@@ -1,5 +1,14 @@
-== WinXP x64 workaround
+Amiga Music Preservation grabber
+================================
 
+Attention! This project was written back in time, when i had no any coding skills. It's even worse than any "mouse programming".
+
+What is that for
+----------------
+This is a grabber that downloads modules from Amiga Music Preservation (that is currently hugest amiga music scene archive) all together per one musician. They don't provide this by themselves cause they want to save their traffic, but they spend too much of our time. So i've done this, but keep it private please! Thanks.
+
+WinXP x64 workaround
+--------------------
 In WinXP x64 i found that chcp.com was in place, but was invisible
 for anything except the Explorer.exe itself. Copy it somewhere than
 place back with cmd.exe or 3rd party GUI manager.
