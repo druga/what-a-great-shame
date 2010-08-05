@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+ErrorDocument 403 /~sasha/index.php
+ErrorDocument 404 /~sasha/index.php
+ErrorDocument 500 /~sasha/index.php
+RewriteEngine On
+# Redirect from ugly www. to domain name itself
+RewriteCond %{HTTP_HOST} ^www\.somewhatdomain\.ru$ [NC]
+RewriteRule ^(.*)$ http://somewhatdomain.ru/~sasha$1 [R=301,L] Windows Server/IIS: 
+# Rewrite so that's generated image have URL like it's real picture file in some dir
+RewriteRule ^images/(.*)$ ./?image=$1
