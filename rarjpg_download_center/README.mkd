@@ -5,11 +5,17 @@ Just another "ugliest in the world script" dedicated to the famous russian Rarjp
 
 Although this shit is not providing exactly Rarjpeg technologies because almost every browser tries to download RAR part too while should ignore anything after JPG part :( Instead, this script draws page with gallery of small picture thumbs which are just redrawed image parts of rarjpegs that user uploaded. This should scare away ignorant people. Links to images mask using Rewrite so they looks like real files in real dirs (not dynamically redrawed ones). When user goes to specially formed link from trusted referer including file name, he gets file with RAR extension from rarjpeg directly.
 
-Script takes it's need when using on hostings that provide tons of space but depricates just using their hosting as file storage. This scripts stucks hoster rules like: "All file should be part of site" :D
+Script takes it's need when using on hostings that provide tons of space but depricate just using their hosting as file storage. This scripts stucks hoster rules like: "All files should be part of site" :D
 
 - XHTML/CSS valid page;
 - You can set JPEG recompress quality; 
 - Script splits big gallery to pages to avoid of long load of a page. Images quantity per page can be changed;
 - You can choose sort method of pictures. Sort them by date of modify or by file name in both up and down ways;
-- You should set referer, which will capable to use "?fullview=<filename>" request to download the file;
+- You should set referer, which will capable to use "?fullview=<<filename_without_extension>>" request to download the file;
 - You can set files-excludes that can download without valid referer.
+
+krakens
+-------
+
+Place your specially prepaired file (rarjpeg) into this folder. Since this is "thumbs gallery page", you should embed small pictures like 100x or 200x pixels. 
+How to create a rarjpeg and more background about it please read at http://lurkmore.ru/Rarjpeg.
