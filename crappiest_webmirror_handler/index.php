@@ -1,5 +1,7 @@
 <?
-	/* crappiest mirror handler by dukzcry */
+	/* crappiest mirror handler */
+
+	/* Written by Artem Falcon <lomka@gero.in> */
 	/* This program is a free software. It comes without any warranty, to
 	 * the extent permitted by applicable law. You can redistribute it
 	 * and/or modify it under the terms of the Do What The Fuck You Want
