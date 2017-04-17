@@ -1,12 +1,12 @@
 This is ugliest in the world script was written when i felt in the problem where my good hoster blocks socket connections on ports that higher than 80 which i wanted for my needs, so i chose to put pages with info and sockets using on other free side and grab them to page on hoster side. That's stupid right, but i made it just for fun.
 So it's mirror choosing script that looks for live mirrors or errors occured on them, set rechecking time for dead mirrors and load part from working mirror. That's offen occurs on free-hosting mirrors.
 
-##Package sctructure:
-##index.php
+## Package sctructure:
+## index.php
 Script itself
 
-##index2.php
+## index2.php
 Index page used on mirror side.
 
-##mirrors.txt
+## mirrors.txt
 File with mirrors. Use example format.
